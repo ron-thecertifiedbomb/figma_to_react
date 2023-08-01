@@ -1,9 +1,9 @@
 import React from "react";
-import Title from "../Title/Title";
-import "./hero.css";
-import bg from "../../assets/bg.png";
 
-const Hero = () => {
+import "./hero.css";
+
+
+const Hero = ({bg , title}) => {
   return (
     <section
       style={{
@@ -13,7 +13,9 @@ const Hero = () => {
         backgroundPosition: "center",
       }}
     >
-      <Title />
+
+
+   {title}
     </section>
   );
 };
