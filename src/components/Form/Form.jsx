@@ -23,6 +23,7 @@ const Form = () => {
   <h1 className='input-title'>Name</h1>
   <input placeholder="Your full name"></input>
   </div>
+  
 <div className='input-wrapper'>
   <h1 className='input-title'>Email</h1>
   <input placeholder="Your email address"></input>
