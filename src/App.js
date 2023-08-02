@@ -3,17 +3,10 @@ import Home from "./page/Home/home";
 import Welcome from "./page/Welcome/welcome";
 import PageThree from "./page/PageThree/PageThree";
 
-
 function App() {
-
-
-
   return (
     <div className="App">
-     
       <Home />
-    
-   
       <br></br>
       <br></br>
       <br></br>
@@ -23,7 +16,7 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-   <PageThree /> 
+      <PageThree />
     </div>
   );
 }

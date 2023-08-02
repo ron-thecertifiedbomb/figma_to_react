@@ -1,15 +1,15 @@
 import React from 'react'
 import './Footer.css'
 
-const Footer = () => {
+const Footer = ({ width, paddingLeft, paddingRight}) => {
   return (
-    <main className='footer'>
+    <main className='footer' style={{ width: width, paddingLeft: paddingLeft, paddingRight: paddingRight }}>
        <h1 className='footer-title-right'>© 2022, Made with ❤️ by <span>Tektorch</span> for a better web</h1>
        <div className='footer-menu'>
-        <h1 >About Us</h1>
-        <h1>Privacy</h1>
-        <h1>Blog</h1>
-        <h1>License</h1>
+        <p >About Us</p>
+        <p>Privacy</p>
+        <p>Blog</p>
+        <p>License</p>
        </div>
        </main>
   )
