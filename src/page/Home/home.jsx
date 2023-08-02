@@ -16,7 +16,7 @@ const Home = () => {
   const navStylesOne = {
     borderRadius: "15px",
     border: "none",
-    background: "transparent",
+    background: "none",
     boxShadow: "none",
     backdropFilter: "blur(10.500000953674316px)",
   };
