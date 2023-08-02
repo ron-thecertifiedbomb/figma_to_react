@@ -82,6 +82,10 @@ const Welcome = () => {
           marginTop={"36px"}
           marginBottom={"0"}
         />
+ 
+<h1 className='bottom-text' style={{ marginTop:" 22px"}}>Dont have an account? <span>Sign up</span></h1>
+
+
         <div className="footer-wrapper"> <Footer /></div>
        
       </section>
