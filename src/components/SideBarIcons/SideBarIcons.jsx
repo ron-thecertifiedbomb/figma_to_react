@@ -2,10 +2,6 @@ import React from 'react';
 import './SibeBarIcons.css';
 
 
-
-
-
-
 const SideBarIcons = ({ icons, title, isActive, setActiveIcon }) => {
 
     return (
@@ -21,7 +17,7 @@ const SideBarIcons = ({ icons, title, isActive, setActiveIcon }) => {
           </div>
         </div>
         <div className='icon-title'>
-          <span>{title}</span>
+          <p className={isActive ? 'links-active' : 'links'}>{title}</p>
         </div>
   
       </div>

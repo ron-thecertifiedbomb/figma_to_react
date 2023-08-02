@@ -13,8 +13,6 @@
     padding-left: 16px;
 }
 
-
-
 .side-bar-icon {
   display: flex;
   width: 219.5px;
@@ -51,6 +49,28 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.links {
+  color: var(--gray-gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+}
+
+.links-active {
+color: var(--gray-gray-700, #2D3748);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+}
+
+
+
 
 .icon-wrapper-active {
   width: 30px;

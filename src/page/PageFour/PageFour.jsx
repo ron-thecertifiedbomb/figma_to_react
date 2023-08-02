@@ -1,22 +1,20 @@
 import React from "react";
-import "./PageThree.css";
+import './PageFour.css'
 import SideBar from "../../components/SideBar/SideBar";
 import BreadCrumb from "../../components/BreadCrumbs/BreadCrumb";
 import SearcBar from "../../components/SearchBar/SearcBar";
 import TopIcons from "../../components/TopIcons/TopIcons";
 import ImageRenderer from "../../components/ImageRenderer/ImageRenderer";
 import {
-  imageGroupOne,
-  imageGroupTwo,
-  imageGroupThree,
-  imageGroupFour,
+
+  imageGroupFive,
 } from "../../components/SideBar/helpers";
 import Footer from "../../components/Footer/Footer";
 
 
-const PageThree = () => {
+const PageFour = () => {
   return (
-    <div className="pagethree-wrapper">
+    <div className="pagefour-wrapper">
       <div className="sidebar">
         <SideBar />
       </div>
@@ -24,8 +22,8 @@ const PageThree = () => {
         <header>
           <div className="sub-header">
             <div className="left-column">
-            <BreadCrumb titleone={'Pages'} titletwo={'Dashboard'} />
-              <h1 style={{ marginTop: "8px" }}>Dashboard</h1>
+              <BreadCrumb titleone={'Pages'} titletwo={'Tables'} />
+              <h1 style={{ marginTop: "8px" }}>Tables</h1>
             </div>
 
             <div className="right-column">
@@ -35,14 +33,12 @@ const PageThree = () => {
           </div>
         </header>
 
-        <ImageRenderer imageGroupOne={imageGroupOne} marginTop={"29px"} />
-        <ImageRenderer imageGroupOne={imageGroupTwo} marginTop={"18px"} />
-        <ImageRenderer imageGroupOne={imageGroupThree} marginTop={"19px"} />
-        <ImageRenderer imageGroupOne={imageGroupFour} marginTop={"19px"} />
+       
+        <ImageRenderer imageGroupOne={imageGroupFive} marginTop={"19px"} flexDirection={'column'} />
         <Footer width={'100%'} paddingLeft={'25px'} paddingRight={'25px'}/>
       </div>
     </div>
   );
 };
 
-export default PageThree;
+export default PageFour;

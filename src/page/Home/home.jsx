@@ -12,6 +12,7 @@ import Form from "../../components/Form/Form";
 import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
+  
   const navStylesOne = {
     borderRadius: "15px",
     border: "none",
@@ -57,7 +58,7 @@ const Home = () => {
 
         <Form />
         <div className="footer-wrapper">
-          {" "}
+
           <Footer />
         </div>
       </div>

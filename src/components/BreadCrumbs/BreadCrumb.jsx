@@ -1,11 +1,14 @@
-import React from 'react'
-import './BreadCrumbs.css'
+import React from "react";
+import "./BreadCrumbs.css";
 
-const BreadCrumb = () => {
+const BreadCrumb = ({ titleone, titletwo }) => {
   return (
-    <div className='bread-crumbs-wrapper'>
-       <h1><span>Pages </span> / Dashboard</h1></div>
-  )
-}
+    <div className="bread-crumbs-wrapper">
+      <h1>
+        <span className="span-title">{titleone} </span> / {titletwo}
+      </h1>
+    </div>
+  );
+};
 
-export default BreadCrumb
+export default BreadCrumb;

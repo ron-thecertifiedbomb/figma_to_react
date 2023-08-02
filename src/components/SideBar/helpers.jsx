@@ -17,6 +17,12 @@ import ImgEight from '../../assets/centercards/SecondCard.png'
 import ImgNine from '../../assets/bottomcards/FirstCard.png'
 import ImgTen from '../../assets/bottomcards/SecondCard.png'
 
+import ImgEleven from '../../assets/pagefour/FirstCard.png'
+import ImgTwelve from '../../assets/pagefour/SecondCard.png'
+
+import ImgThirteen from '../../assets/svgs/default.png'
+import ImgFourteen from '../../assets/svgs/paper.png'
+import ImgFifteen from '../../assets/svgs/sharp.png'
 
 
 export const icons = [
@@ -45,15 +51,15 @@ export const icons = [
 export const iconstwo = [
   {
     title: "Profile",
-    icon: (Billing ),
+    icon: ImgThirteen,
   },
   {
     title: "Sign In",
-    icon: (Billing),
+    icon: ImgFourteen,
   },
   {
     title: "Sign Up",
-    icon: (Billing),
+    icon: ImgFifteen,
 
   },
 
@@ -120,6 +126,21 @@ export const imageGroupFour = [
   {
     title: "Sign In",
     image: ImgTen,
+  },
+
+
+];
+
+
+
+export const imageGroupFive = [
+  {
+    title: "Profile",
+    image: ImgEleven,
+  },
+  {
+    title: "Sign In",
+    image: ImgTwelve,
   },
 
 

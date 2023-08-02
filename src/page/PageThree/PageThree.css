@@ -37,3 +37,13 @@
   gap: 10px;
   padding-right: 47.5px;
 }
+
+@media only screen and (max-width: 800px) {
+  .sidebar{
+display: none !important;
+  }
+ 
+}
+
+
+
