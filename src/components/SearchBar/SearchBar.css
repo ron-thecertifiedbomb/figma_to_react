@@ -1,0 +1,19 @@
+.search-bar-wrapper {
+  width: 199px;
+  height: 39.5px;
+ display: flex;
+  border-radius: 15px;
+  border: 0.5px solid var(--gray-gray-200, #e2e8f0);
+  background: var(--black-amp-white-white, #fff);
+  align-items: center;
+  padding-left: 11.5px;
+}
+
+.icon-search {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap:  11.5px;
+}
+
+

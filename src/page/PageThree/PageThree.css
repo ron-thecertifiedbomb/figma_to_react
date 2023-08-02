@@ -1,0 +1,39 @@
+.pagethree-wrapper {
+  width: 100%;
+  height: 1580px;
+  background: #f8f9fa;
+  display: flex;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagethree-wrapper h1 {
+  color: var(--gray-gray-700, #2d3748);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 19.6px */
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5.5px;
+}
+
+.right-page-column {
+  background: #f8f9fa !important;
+}
+
+.right-column {
+  display: flex;
+  gap: 10px;
+  padding-right: 47.5px;
+}

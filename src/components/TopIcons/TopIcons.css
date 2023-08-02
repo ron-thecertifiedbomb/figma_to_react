@@ -1,0 +1,41 @@
+
+.top-icons-wrapper  {
+   display: flex;
+   height: 12px;
+   padding-top: 20px;
+}
+
+
+.top-icons-wrapper h1 {
+    color: var(--gray-gray-500, #718096);
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    width: 66.5px;
+
+
+
+}
+
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px
+}
+
+
+
+
+.right {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px
+}

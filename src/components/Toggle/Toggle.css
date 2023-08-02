@@ -1,42 +1,41 @@
 .toggle-container {
-    width: 125.5px;
-height: 18.5px;
-display: flex;
-gap: 10px;
+  width: 125.5px;
+  height: 18.5px;
+  display: flex;
+  gap: 10px;
 }
 
 .toggle {
-    width: 36px;
-    height: 18.5px;
-    background: #4FD1C5;
-border-radius: 97.7397px;
-display: flex;
-align-content: center;
-align-items: center;
-justify-content: end;
-padding-right: 2px;
+  width: 36px;
+  height: 18.5px;
+  background: #4fd1c5;
+  border-radius: 97.7397px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: end;
+  padding-right: 2px;
 }
 
-
 .circle {
-    width: 13.5px;
-height: 13.5px;
-background: #FFFFFF;
-border-radius: 50px;
+  width: 13.5px;
+  height: 13.5px;
+  background: #ffffff;
+  border-radius: 50px;
 }
 
 .remember {
-    width: 79.5px;
-    height: 18px; 
-    
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 150%;
+  width: 79.5px;
+  height: 18px;
 
-/* identical to box height, or 18px */
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
 
-/* Gray/Gray-700 */
-color: #2D3748;
+  /* identical to box height, or 18px */
+
+  /* Gray/Gray-700 */
+  color: #2d3748;
 }

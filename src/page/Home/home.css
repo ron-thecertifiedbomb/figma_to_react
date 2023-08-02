@@ -5,6 +5,14 @@
 }
 
 
+.footer-wrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+
 .wrapper-box-container {
     max-width: 977px;
     width: 100%;
@@ -12,9 +20,11 @@ padding-top: 67px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-   align-content: start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
     align-items: center;
+    position: relative;
 }
 
 

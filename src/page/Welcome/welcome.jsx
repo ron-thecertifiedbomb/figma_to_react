@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./welcome.css";
 import Toggle from "../../components/Toggle/Toggle";
 import Button from "../../components/Button/Button";
@@ -11,7 +11,22 @@ import SignUp from "../../assets/svg/signup.svg";
 import Key from "../../assets/svg/key.svg";
 import Logo from "../../assets/svg/logo.svg";
 import Input from "../../components/Input/Input";
+
 const Welcome = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const navStylesTwo = {
     borderRadius: "15px",
     border: "1.5px solid #FFF",
@@ -25,9 +40,9 @@ const Welcome = () => {
 
   return (
     <main
-      className="welcome_container"
+      className="welcome_container_wrapper"
       style={{
-        backgroundImage: `url(${bgtwo})`,
+        backgroundImage: windowWidth > 400 ? `url(${bgtwo})` : "none",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -48,7 +63,7 @@ const Welcome = () => {
           keyicon={Key}
         />
 
-        <h1 style={{ marginBottom: "8.5px", marginTop: "200px" }}>
+        <h1 style={{ marginBottom: "8.5px", marginTop: "150px" }}>
           Welcome Back
         </h1>
         <p style={{ marginBottom: "36px" }}>
@@ -65,9 +80,10 @@ const Welcome = () => {
           border={"none"}
           borderRadius={"12px"}
           marginTop={"36px"}
-          marginBottom={'200px'}
+          marginBottom={"0"}
         />
-        <Footer />
+        <div className="footer-wrapper"> <Footer /></div>
+       
       </section>
     </main>
   );
